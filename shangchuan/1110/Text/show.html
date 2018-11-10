@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Document</title>
+ </head>
+ <body>
+ <center>
+ 	<table>
+ 		<tr>
+ 			<td>姓名</td>
+ 			<td>头像</td>
+ 		</tr>
+ 		<?php foreach ($list as $k => $v) { ?>
+ 		<tr>
+ 			<td>
+ 				{$v['name']}
+ 			</td>
+ 			<td>
+ 				<img src="http://localhost/7lianxi/tplianxi/tp.{$v['img'] }" style="width:100px;">
+ 			</td>
+ 		</tr>
+ 		<?php } ?>
+ 		{$page}
+ 	</table>
+ </center>
+ </body>
+ </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="{:U('text/add_do')}" method="post" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<td>姓名</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>头像</td>
+				<td><input type="file" name="img"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="添加"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
